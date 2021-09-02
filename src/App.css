@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes hearthAnimate {
+  0% {
+  }
+  50% {
+    height: 30px;
+    width: 30px;
+    transform: translate(-3px,-3px);
+  }
+}
+
+@keyframes fadeIn {
+  from {opacity: 0} 
+  to {opacity: 1}
+}
+
+@keyframes slideIn {
+  from {
+    bottom: -300px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0; 
+    opacity: 1;
+  }
+}
